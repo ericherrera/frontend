@@ -19,6 +19,8 @@ async function loginUser(credentials) {
       .then(data => data.json())
    }
 
+
+//Este es la funcion que llama el metodo loginUser
 export default function Login({ setToken }) {
     const [username, setUserName] = useState();
     const [password, setPassword] = useState();
